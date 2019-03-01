@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ParecelableDemo</string>
+    <string name="enter_firstname_hint">Enter First Name</string>
+    <string name="enter_lastname_hint">Enter Last Name</string>
+    <string name="save_serializable">Save Serializable</string>
+    <string name="save_parcelable">Save Parcelable</string>
+
+</resources>

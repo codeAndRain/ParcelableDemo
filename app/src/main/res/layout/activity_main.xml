@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
+        android:layout_width="match_parent"
+        android:theme="@style/ToolBarTheme.ToolBarStyle"
+        android:layout_height="?attr/actionBarSize" />
+
+    <EditText
+        android:id="@+id/firstname_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_firstname_hint" />
+
+    <EditText
+        android:id="@+id/last_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_lastname_hint" />
+
+    <Button
+        android:id="@+id/save_button_serializable"
+        android:layout_width="wrap_content"
+        android:text="@string/save_serializable"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/save_button_parcelable"
+        android:layout_width="wrap_content"
+        android:text="@string/save_parcelable"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
